@@ -18,7 +18,7 @@ type Context struct {
 	Params map[string]string
 
 	StatusCode int
-
+	//middleware
 	handlers []HandlerFunc
 	index    int
 }
